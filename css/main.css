@@ -93,6 +93,8 @@ header nav ul li.btn a:hover {
 /*hero*/
 
 .hero {
+	width: 1400px;
+	margin: 0 auto;
 	padding-bottom: 100px; 
 	position: relative;
 	z-index: 1; 
