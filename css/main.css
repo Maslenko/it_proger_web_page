@@ -141,8 +141,9 @@ header nav ul li.btn a:hover {
 	width: 560px;
 	height: auto; 
 	position: absolute;
-	top: -150px;
-	right: 0;
+	top: 90px;
+	right: 40px;
+	transform: rotate(20deg);
 }
 
 /*Секция с играми*/
@@ -203,6 +204,39 @@ header nav ul li.btn a:hover {
 	text-align: center;
 	width: 800px;
 }
+
+.banner {
+	padding: 80px 0;
+}
+
+.banner h3 {
+	font-size: 30px;
+	font-weight: 600; 
+	margin-bottom: 30px;
+}
+
+.banner p {
+	line-height: 170%;
+	margin-bottom: 30px; 
+	width: 550px; 
+}
+
+.banner img {
+	width: 100%;
+	margin-bottom: 30px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
