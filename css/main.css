@@ -141,8 +141,8 @@ header nav ul li.btn a:hover {
 	width: 560px;
 	height: auto; 
 	position: absolute;
-	top: 90px;
-	right: 40px;
+	top: 40px;
+	right: 60px;
 	transform: rotate(20deg);
 }
 
