@@ -248,6 +248,17 @@ header nav ul li.btn a:hover {
 	font-size: 30px; 	
 }
 
+/*белый фон за пиктограммой*/
+.features .info .block2 .back {
+	width: 70px;
+	height: 70px;
+	background-color: white; 
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
 
