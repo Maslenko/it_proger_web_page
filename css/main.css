@@ -170,7 +170,7 @@ header nav ul li.btn a:hover {
 	font-size: 31px;
 }
 
-.trending .see-all {
+.trending .see-all, .projects .see-all {
 	color: #fff;
 	background: #25211d; 
 	border-radius: 5px; 
@@ -180,7 +180,7 @@ header nav ul li.btn a:hover {
 	transition: all 500ms ease;
 }
 
-.trending .see-all:hover {
+.trending .see-all:hover, .projects .see-all:hover {
 	transform: scale(1.1); 
 }
 
@@ -274,18 +274,37 @@ header nav ul li.btn a:hover {
 	margin-right: auto; 
 }
 
-/*.features .info .block2  {
-	margin-bottom: 15px; 
-}*/
+.projects {
+	padding: 100px 0;
+}
 
+.projects h3 {
+	font-size: 30px;
+	text-align: center;
+}
 
+.projects p {
+	margin: 40px 0;
+	text-align: center;  
+}
 
+.projects .images {
+	height: 180px; 
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 25px; 
+} 
 
+.projects .images img {
+	border-radius: 15px; 
+}
 
-
-
-
-
+.projects .see-all {
+	float: none;
+	width: 120px;
+	text-align: center;
+	margin: 0 auto; 	 
+}
 
 
 
