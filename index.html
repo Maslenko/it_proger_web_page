@@ -132,12 +132,47 @@
 					<p>Подпишись чтобы получать последние новости с планеты Плюк и обновления для гравицапы. Мы обещаем не закидывать Вас эцилопами.</p>
 				</div>
 				<div>
-					<input type="email" placeholder="Enter email adress">
-					<button>Продолжаем</button>
+					<input type="email" id="emailField" placeholder="Enter email adress">
+					<button onclick="checkEmail()">Продолжаем</button>
 				</div>
 			</div>
-
 		</div>	
-	</div>	
+	</div>
+
+	<footer>
+		<div class="blocks container">
+			<div>
+				<span class="logo">Logo</span>
+				<p>Рыбий текст. Плыл карасик по реке и икру металл. Ехал Грека через реку, сунул Грека руку в реку. Рак за руку Грека цап.</p> 
+			</div>
+			<div>
+				<h4>Про нас</h4>
+				<ul>
+					<li>Zeux</li>
+					<li>Портфолио</li>
+					<li>Карьера</li>
+					<li>Пиши нам</li>
+				</ul>	
+			</div>
+			<div>
+				<h4>Наши контакты</h4>
+				<p>Рыба текст. Квадрат гипотенузы равен силе квадратов катетов. c2=a2+b2. Ниже телефон который я никак не могу запомнить.</p>
+				<p>+4368120258130</p>
+			</div>
+		</div>
+		<hr>
+		<p>Копирайт 2025. Правда всему голова.</p>	
+	</footer>
+
+	<script type="text/javascript">
+		function checkEmail() {
+			let email = document.querySelector('#emailField').value; 
+			//alert(email.value); 
+			if (!email.includes('@')) alert('Введите символ @');
+			else if(!email.includes('.')) alert('Введите точку.'); 
+			else alert('Всё отлично!');  
+		}
+	</script>
+
 </body>
 </html>
