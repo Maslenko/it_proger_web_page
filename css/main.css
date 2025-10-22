@@ -23,6 +23,7 @@ img {
 .wrapper {
 	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,14,1,1) 100%);
 	width: 100%;
+	overflow-x: hidden; /* обрезает все, что выходит за края wrapper */ 
 	/*height: 100vh;*/ 
 }
 
@@ -123,7 +124,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 	margin: 30px;
 }
 
-.hero--info .btn {
+.hero--info .btn, .hero-about .info .btn {
 	background: #fa8305;
 	color: #fff;
 	border-radius: 50px; 
@@ -133,7 +134,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 	font-size: 17px;
 } 
 
-.hero--info .btn:hover {
+.hero--info .btn:hover, .hero-about .info .btn:hover {
 	cursor: pointer;
 	transform: scale(1.1);
 }
@@ -366,6 +367,32 @@ header nav ul li.btn a:hover, .email .block button:hover {
 	color: #fff; 
 }
 
+/* Страница про нас */
+
+.hero-about {
+	position: relative;
+}
+
+.hero-about .info {
+	width: 500px; 
+	padding: 250px 0;
+}
+
+.hero-about .info h1 {
+	margin-bottom: 15px;  
+	font-size: 30px; 
+}
+
+.hero-about .info .btn {
+	margin-top: 20px;
+}
+
+.hero-about img {
+	position: absolute;
+	right: -150px; 
+	top: 0;
+}
+
 /* Footer */
 
 footer {
@@ -407,9 +434,6 @@ footer hr {
 footer > p {
 	text-align: center;
 }
-
-
-
 
 
 
